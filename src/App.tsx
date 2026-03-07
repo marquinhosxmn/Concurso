@@ -8,7 +8,7 @@ import { motion } from 'motion/react';
 
 export default function App() {
   // Placeholder link - User should replace this with their actual Telegram invite link
-  const telegramLink = "https://t.me/FoxConcursos";
+  const telegramLink = "https://t.me/+HnBHj2fniV1lNzUx";
 
   return (
     <div className="min-h-screen bg-white flex flex-col items-center justify-center p-6 font-sans text-center">

@@ -7,7 +7,7 @@ import { CheckCircle, MessageCircle } from 'lucide-react';
 import { motion } from 'motion/react';
 
 export default function App() {
-  const devProLink = "https://t.me/+HnBHj2fniV1lNzUx";
+  const devProLink = "https://t.me/+egChYklTC8o1Yjkx";
   const concursosProLink = "https://t.me/FoxConcursos";
   const englishProLink = "https://t.me/+twPMpDMNKl85ZDAx";
 

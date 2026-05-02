@@ -10,6 +10,7 @@ export default function App() {
   const devProLink = "https://t.me/+egChYklTC8o1Yjkx";
   const concursosProLink = "https://t.me/FoxConcursos";
   const englishProLink = "https://t.me/+twPMpDMNKl85ZDAx";
+  const digitalProLink = "#"; // Faltou você me enviar o link!
 
   return (
     <div className="min-h-screen bg-gray-950 flex flex-col items-center justify-center p-6 font-sans text-center">
@@ -69,6 +70,18 @@ export default function App() {
             <button className="w-full bg-purple-600 hover:bg-purple-700 text-white font-bold text-lg py-4 px-6 rounded-xl shadow-lg shadow-purple-900/50 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl flex items-center justify-center gap-3 cursor-pointer">
               <MessageCircle className="w-6 h-6" />
               ENTRAR NO ENGLISHPRO
+            </button>
+          </a>
+
+          <a 
+            href={digitalProLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group w-full"
+          >
+            <button className="w-full bg-orange-600 hover:bg-orange-700 text-white font-bold text-lg py-4 px-6 rounded-xl shadow-lg shadow-orange-900/50 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl flex items-center justify-center gap-3 cursor-pointer">
+              <MessageCircle className="w-6 h-6" />
+              ENTRAR NO DIGITALPRO+
             </button>
           </a>
         </div>
